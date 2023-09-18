@@ -14,6 +14,8 @@ import {
   iu,
   dohle,
   portfolio,
+  weather,
+  js30,
 } from "../assets";
 
 export const navLinks = [
@@ -160,7 +162,47 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/stse13/3d-portfolio",
+  },
+  {
+    name: "Weather APP",
+    description: "Web application that uses an API to retrive Weather data.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML&CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/stse13/Weather-App",
+  },
+  {
+    name: "JS30 Challenge",
+    description: "30 Day Vanilla JavaScript Coding Challenge.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DOM",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: js30,
+    source_code_link: "https://github.com/stse13/JS30",
   },
 ];
 
