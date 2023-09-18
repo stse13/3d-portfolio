@@ -21,6 +21,8 @@ import dohle from "./company/dohle.png";
 import iu from "./company/iu.png";
 
 import portfolio from "./portfolio.png";
+import weather from "./weather.png";
+import js30 from "./js30.png";
 
 export {
   logo,
@@ -43,4 +45,6 @@ export {
   iu,
   dohle,
   portfolio,
+  weather,
+  js30,
 };
